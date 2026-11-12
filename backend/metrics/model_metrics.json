@@ -1,0 +1,164 @@
+{
+  "best_model": "Logistic Regression",
+  "accuracy": 0.8689,
+  "precision": 0.8125,
+  "recall": 0.9286,
+  "f1_score": 0.8667,
+  "roc_auc": 0.9513,
+  "confusion_matrix": [
+    [
+      27,
+      6
+    ],
+    [
+      2,
+      26
+    ]
+  ],
+  "model_comparison": [
+    {
+      "name": "Logistic Regression",
+      "accuracy": 0.8689,
+      "precision": 0.8125,
+      "recall": 0.9286,
+      "f1_score": 0.8667,
+      "roc_auc": 0.9513,
+      "cv_roc_auc": 0.8953,
+      "confusion_matrix": [
+        [
+          27,
+          6
+        ],
+        [
+          2,
+          26
+        ]
+      ]
+    },
+    {
+      "name": "Random Forest",
+      "accuracy": 0.918,
+      "precision": 0.871,
+      "recall": 0.9643,
+      "f1_score": 0.9153,
+      "roc_auc": 0.954,
+      "cv_roc_auc": 0.8877,
+      "confusion_matrix": [
+        [
+          29,
+          4
+        ],
+        [
+          1,
+          27
+        ]
+      ]
+    },
+    {
+      "name": "Support Vector Machine",
+      "accuracy": 0.8197,
+      "precision": 0.7742,
+      "recall": 0.8571,
+      "f1_score": 0.8136,
+      "roc_auc": 0.9199,
+      "cv_roc_auc": 0.8882,
+      "confusion_matrix": [
+        [
+          26,
+          7
+        ],
+        [
+          4,
+          24
+        ]
+      ]
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "ca",
+      "display_name": "Major Vessels (Fluoroscopy)",
+      "importance": 1.204
+    },
+    {
+      "feature": "sex",
+      "display_name": "Sex",
+      "importance": 1.1427
+    },
+    {
+      "feature": "exang",
+      "display_name": "Exercise-Induced Angina",
+      "importance": 0.7037
+    },
+    {
+      "feature": "cp",
+      "display_name": "Chest Pain Type",
+      "importance": 0.5539
+    },
+    {
+      "feature": "slope",
+      "display_name": "ST Slope",
+      "importance": 0.4866
+    },
+    {
+      "feature": "fbs",
+      "display_name": "Fasting Blood Sugar",
+      "importance": 0.4444
+    },
+    {
+      "feature": "thal",
+      "display_name": "Thalassemia",
+      "importance": 0.3792
+    },
+    {
+      "feature": "thalach",
+      "display_name": "Max Heart Rate",
+      "importance": 0.3544
+    },
+    {
+      "feature": "trestbps",
+      "display_name": "Resting Blood Pressure",
+      "importance": 0.2897
+    },
+    {
+      "feature": "restecg",
+      "display_name": "Resting ECG",
+      "importance": 0.2347
+    },
+    {
+      "feature": "oldpeak",
+      "display_name": "ST Depression",
+      "importance": 0.189
+    },
+    {
+      "feature": "chol",
+      "display_name": "Cholesterol",
+      "importance": 0.1815
+    },
+    {
+      "feature": "age",
+      "display_name": "Age",
+      "importance": 0.1181
+    }
+  ],
+  "features_used": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "training_date": "2026-08-26T16:21:04.327731",
+  "dataset": "UCI Heart Disease (Cleveland)",
+  "samples_total": 303,
+  "samples_train": 242,
+  "samples_test": 61
+}
