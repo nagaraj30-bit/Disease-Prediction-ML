@@ -466,9 +466,6 @@ curl -X POST http://localhost:8000/predict -H "Content-Type: application/json" -
 
 ---
 
-## License
-
-This project is created for educational purposes as part of the CodeAlpha internship program.
 
 ## Acknowledgments
 
